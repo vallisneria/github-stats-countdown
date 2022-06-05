@@ -12,7 +12,7 @@ async function handleRequest(request) {
     let sign = left_day > 0 ? '+' : '-';
 
     let svg = '<svg width="180" height="40" xmlns="http://www.w3.org/2000/svg">'
-        + `<text x="10" y="30" font-size="30">D${sign}${Math.abs(left_day)}</text>`
+        + `<text x="10" y="30" font-size="30" font-family="Helvetica, Arial, sans-serif">D${sign}${Math.abs(left_day)}</text>`
         + '</svg>';
 
     return new Response(svg, {
