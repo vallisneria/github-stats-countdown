@@ -1,0 +1,14 @@
+{
+  "name": "github-stats-countdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wrangler dev"
+  },
+  "author": "vallisneria",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.19.12"
+  }
+}
